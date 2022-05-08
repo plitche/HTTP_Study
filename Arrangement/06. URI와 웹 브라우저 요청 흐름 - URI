@@ -1,0 +1,25 @@
+	06. URI와 웹 브라우저 요청 흐름 - URI
+		*URI(Uniform Resource Identifier)
+		
+		*URI: 로케이터(locator), 이름(name) 또는 둘다 추가로 분류될 수 있다.
+			URI(리소스를 식별한다.)가 URL과 URN을 포함하는 개념
+		*URL: ex) http://exapmple.com
+		*URN: ex) exapmle:animalLferret:nose
+		
+			- Uniform: 리소스 식별하는 통일된 방식
+			- Resource: 자원, URI로 식별할 수 있는 모든 것(제한 없음)
+			- Identifier: 다른 항목과 구분하는데 필요한 정보
+			
+		* URL 전체 문법 
+			- scheme://[userinfo@]host[:port][/path][?query][#fragment]
+			- https://www.google.com:443/search?q=hello&hi=ko
+			
+			* 프로토콜(https)
+			* 호스트명(www.google.com)
+			* 포트 번호(443)
+			* 패스(/search)
+			* 쿼리 파라미터(q=hello&hi=ko)
+			
+		* HTTPS(HTTP Secure)는 HTTP의 강력한 보안이 적용 된 것이라고 이해하면 된다.
+		
+		

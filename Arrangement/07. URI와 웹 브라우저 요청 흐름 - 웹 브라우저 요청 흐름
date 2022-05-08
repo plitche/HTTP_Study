@@ -1,0 +1,17 @@
+	07. URI와 웹 브라우저 요청 흐름 - 웹 브라우저 요청 흐름
+		
+		
+									HTTPS PORT 생략, 443
+		요청: https://www.google.com:443/search?q=hello&hi=ko
+					DNS 조회
+					IP: 200.200.200.2
+		
+		1. 웹 브라우저: HTTP 요청 메시지 생성
+			- GET /search?q=hello&hi=ko HTTP/1.1
+			- Host: www.google.com
+		
+		2. SOCKET 라이브러리를 통해 전달
+			- A: TCP/IP 연결(IP, PORT)
+			- B: 데이터 전달
+			
+		3. TCP/IP 패킷 생성, HTTP 메시지 포함

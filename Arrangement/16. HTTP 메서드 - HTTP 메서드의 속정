@@ -1,0 +1,6 @@
+	16. HTTP 메서드 - HTTP 메서드의 속정
+		* 안전(Safe Methods)
+		* 멱등(Idempotent Methods)
+		* 캐시가능(Cacheable Methods)
+		
+		
